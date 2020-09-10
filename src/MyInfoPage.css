@@ -1,0 +1,61 @@
+.myinfo {
+    display: grid;
+    place-items: center;
+    margin-top: -100px;
+}
+.myinfo p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.myinfo__container {
+    padding: 10px;
+    text-align: center;
+    /* background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 4px 20px -6px rgb(0, 0, 0); */
+}
+.myinfo__container > p > a {
+    color: blue;
+}
+.myinfo__container > span {
+    font-style: italic;
+    font-weight: bold;
+    color: #ec7a37;
+}
+
+.myinfo-icons {
+    font-size: 50px;
+    margin: 5px;
+    /* color: #1979a8; */
+    cursor: pointer;
+}
+
+.myinfo__container > .MuiAvatar-root {
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+}
+.myInfo-pic {
+    background: transparent url(./images/MyPic.JPG) scroll no-repeat 0 0;
+    background-size: cover;
+    /* url('./images/MyPic.JPG'); */
+    background-color: #f8f9fb;
+    flex: 0.65;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 35%;
+}
+
+.myinfo__followme {
+    font-size: 30px;
+    margin: 5px;
+
+    cursor: pointer;
+    font-size: 30px;
+    color: #eeb000;
+}
