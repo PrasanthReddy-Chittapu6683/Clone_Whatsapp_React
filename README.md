@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## WhatsApp Clone with REACT JS for Beginners !!!
+
+*   Technologies using to build this App
+    *   React JS
+    *   Firebase Firestore Realtime DB
+    *   Material UI
+    *   React Router
+    *   React Context API
+    *   REDUX
+    *   Google Authentication
+    *   Deploy using Firebase 😄
+
+        
 ## Available Scripts
 
 In the project directory, you can run:

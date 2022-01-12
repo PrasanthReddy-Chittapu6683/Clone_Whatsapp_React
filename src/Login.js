@@ -36,7 +36,7 @@ function Login() {
                 </div>
 
                 <Button onClick={signIn}>
-                    <span class="material-icons"> email </span> &nbsp; Sign in With Google Account
+                    <span className="material-icons"> email </span> &nbsp; Sign in With Google Account
                     </Button>
                 <Footer />
             </div>

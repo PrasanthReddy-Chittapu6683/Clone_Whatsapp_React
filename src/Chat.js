@@ -46,7 +46,7 @@ function Chat() {
 
     const sendMessage = (e) => {
         e.preventDefault();
-        console.log('Your Input >>' + inputMsg);
+
         db.collection('rooms').doc(roomId).collection('messages').add(
             {
                 message: inputMsg,
@@ -110,7 +110,7 @@ function Chat() {
                         </IconButton>
                     </button>
                 </form>
-                <MicIcon style={{marginRight:'10px'}} />
+                <MicIcon style={{ marginRight: '10px' }} />
             </div>
 
         </div>
